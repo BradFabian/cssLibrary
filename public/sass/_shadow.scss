@@ -1,0 +1,19 @@
+.tooltip .tooltext-shadow {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  box-shadow: 3px 5px rgba(161, 160, 160, 0.856);
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 10px;
+  left: 105%;
+}
+
+.tooltip:hover .tooltext-shadow {
+  visibility: visible;
+}

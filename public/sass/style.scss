@@ -2,5 +2,21 @@
   position: relative;
   display: inline-block;
 }
-
+@import "always";
 @import "bottomRight";
+@import "bottom";
+@import "bottomLeft";
+@import "left";
+@import "right";
+@import "top";
+@import "topLeft";
+@import "topRight";
+@import "accept";
+@import "warning";
+@import "info";
+@import "error";
+@import "small";
+@import "med";
+@import "large";
+@import "shadow";
+@import "rounded";
