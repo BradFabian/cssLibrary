@@ -116,6 +116,19 @@
   bottom: 10px;
   left: 105%; }
 
+@keyframes bounce {
+  0%,
+  20%,
+  60%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  40% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px); }
+  80% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px); } }
 @keyframes change-background {
   0% {
     background: #69b7eb; }
@@ -126,7 +139,7 @@
 .tooltip:hover .tooltext-crazy {
   visibility: visible;
   opacity: 1;
-  animation: change-background 2s ease-in-out infinite; }
+  animation: bounce 1s infinite, change-background 2s ease-in-out infinite; }
 
 .tooltip .tooltext-left {
   visibility: hidden;
