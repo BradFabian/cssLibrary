@@ -1,0 +1,34 @@
+.tooltip .tooltext-crazy {
+  visibility: hidden;
+  width: 120px;
+
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 10px;
+  left: 105%;
+}
+
+@keyframes change-background {
+  0% {
+    background: #69b7eb;
+  }
+  50% {
+    background: #b3dbd3;
+  }
+  100% {
+    background: #f4d6db;
+  }
+}
+
+.tooltip:hover .tooltext-crazy {
+  visibility: visible;
+  opacity: 1;
+  animation: change-background 2s ease-in-out infinite;
+}

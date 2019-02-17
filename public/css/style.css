@@ -67,6 +67,67 @@
 .tooltip:hover .tooltext-bottom-left {
   visibility: visible; }
 
+.tooltip .tooltext-bounce {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 10px;
+  left: 105%; }
+
+@keyframes bounce {
+  0%,
+  20%,
+  60%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  40% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px); }
+  80% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px); } }
+.tooltip:hover .tooltext-bounce {
+  visibility: visible;
+  opacity: 1;
+  animation: bounce 1s; }
+
+.tooltip .tooltext-crazy {
+  visibility: hidden;
+  width: 120px;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 10px;
+  left: 105%; }
+
+@keyframes change-background {
+  0% {
+    background: #69b7eb; }
+  50% {
+    background: #b3dbd3; }
+  100% {
+    background: #f4d6db; } }
+.tooltip:hover .tooltext-crazy {
+  visibility: visible;
+  opacity: 1;
+  animation: change-background 2s ease-in-out infinite; }
+
 .tooltip .tooltext-left {
   visibility: hidden;
   width: 120px;
@@ -288,6 +349,32 @@
 
 .tooltip:hover .tooltext-shadow {
   visibility: visible; }
+
+.tooltip .tooltext-spin {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 10px;
+  left: 105%; }
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+.tooltip:hover .tooltext-spin {
+  visibility: visible;
+  opacity: 1;
+  animation: spin 1s; }
 
 .tooltip .tooltext-rounded {
   visibility: hidden;
