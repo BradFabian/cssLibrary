@@ -306,4 +306,24 @@
 .tooltip:hover .tooltext-rounded {
   visibility: visible; }
 
+.tooltip .tooltext-fade {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 10px;
+  left: 105%; }
+
+.tooltip:hover .tooltext-fade {
+  visibility: visible;
+  opacity: 1; }
+
 /*# sourceMappingURL=style.css.map */
