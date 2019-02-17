@@ -1,7 +1,3 @@
-.tooltip {
-  position: relative;
-  display: inline-block; }
-
 .tooltip .tooltext-bottom-right {
   visibility: hidden;
   width: 120px;
@@ -10,13 +6,14 @@
   text-align: center;
   border-radius: 6px;
   padding: 5px 0;
+
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
   top: 10px;
-  left: 105%; }
+  left: 105%;
+}
 
 .tooltip:hover .tooltext-bottom-right {
-  visibility: visible; }
-
-/*# sourceMappingURL=style.css.map */
+  visibility: visible;
+}
