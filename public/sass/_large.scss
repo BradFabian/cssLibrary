@@ -6,6 +6,9 @@
   text-align: center;
   border-radius: 6px;
   padding: 5px 0;
+  box-shadow: 6px 5px 10px rgba(63, 62, 62, 0.596);
+  opacity: 0;
+  transition: opacity 1s;
 
   /* Position the tooltip */
   position: absolute;
@@ -16,4 +19,5 @@
 
 .tooltip:hover .tooltext-large {
   visibility: visible;
+  opacity: 1;
 }

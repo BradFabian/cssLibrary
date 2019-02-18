@@ -6,14 +6,17 @@
   text-align: center;
   border-radius: 6px;
   padding: 5px 0;
-
+  box-shadow: 6px 5px 10px rgba(63, 62, 62, 0.596);
+  opacity: 0;
+  transition: opacity 1s;
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
   top: 10px;
-  left: 105%;
+  right: 105%;
 }
 
 .tooltip:hover .tooltext-bottom-left {
   visibility: visible;
+  opacity: 1;
 }
