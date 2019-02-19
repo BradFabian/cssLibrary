@@ -17,6 +17,17 @@
   left: 105%;
 }
 
+.tooltip .tooltext-large::after {
+  content: " ";
+  position: absolute;
+  top: 100%; /* At the top of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
 .tooltip:hover .tooltext-large {
   visibility: visible;
   opacity: 1;

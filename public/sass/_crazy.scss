@@ -47,6 +47,17 @@
   }
 }
 
+.tooltip .tooltext-crazy::after {
+  content: " ";
+  position: absolute;
+  top: 100%; /* At the top of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #b3dbd3 transparent transparent transparent;
+}
+
 .tooltip:hover .tooltext-crazy {
   visibility: visible;
   opacity: 1;
