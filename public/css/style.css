@@ -86,7 +86,21 @@ header {
   text-align: center; }
 
 .classic-tooltips-box {
-  position: absolute; }
+  height: 80vh; }
+
+.tooltip-title {
+  color: #fff;
+  font-size: 150%;
+  text-shadow: 0.8px 1px #000; }
+
+.box {
+  background-color: #6c5ce7;
+  padding: 20px;
+  margin: 20px;
+  color: #fff;
+  font-weight: bold;
+  box-shadow: 5px 5px 10px #4d4f50;
+  border-radius: 5px; }
 
 .tooltip-features {
   background-color: #fab1a0; }
