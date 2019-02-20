@@ -120,6 +120,11 @@ $btntextcolor: #fff; // BUTTON TEXT COLOR//
   text-shadow: 0.8px 1px #000;
 }
 
+.classic-tooltip-menu {
+  display: flex;
+  justify-content: center;
+}
+
 .box {
   background-color: #6c5ce7;
   padding: 20px;
