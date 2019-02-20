@@ -16,6 +16,20 @@
   left: -180%;
 }
 
+@keyframes bounceup {
+  0% {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-3px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
 .tooltip .tooltext-top::after {
   content: " ";
   position: absolute;
@@ -29,5 +43,7 @@
 
 .tooltip:hover .tooltext-top {
   visibility: visible;
+  animation-name: bounceup;
+  animation-duration: 1s;
   opacity: 1;
 }
