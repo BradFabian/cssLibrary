@@ -427,11 +427,32 @@ h2 {
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
-  top: -5px;
+  top: 10px;
   left: 115%; }
+
+@keyframes bounceRight {
+  0% {
+    opacity: 0;
+    transform: translateX(0px); }
+  50% {
+    transform: translateX(3px); }
+  100% {
+    transform: translateX(0); } }
+.tooltip .tooltext-right::after {
+  content: " ";
+  position: absolute;
+  right: 100%;
+  /* At the top of the tooltip */
+  top: 8px;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent black transparent transparent; }
 
 .tooltip:hover .tooltext-right {
   visibility: visible;
+  animation-name: bounceRight;
+  animation-duration: 1s;
   opacity: 1; }
 
 .tooltip .tooltext-top {
