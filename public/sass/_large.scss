@@ -13,8 +13,8 @@
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
-  bottom: 10px;
-  left: 105%;
+  bottom: 70px;
+  right: -90%;
 }
 
 .tooltip .tooltext-large::after {
@@ -28,7 +28,23 @@
   border-color: black transparent transparent transparent;
 }
 
+@keyframes bounceup {
+  0% {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-3px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
 .tooltip:hover .tooltext-large {
   visibility: visible;
+  animation-name: bounceup;
+  animation-duration: 1s;
   opacity: 1;
 }
