@@ -133,8 +133,8 @@ h2 {
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
-  bottom: 10px;
-  left: 105%; }
+  bottom: 70px;
+  left: 10%; }
 
 .tooltip .tooltext-always::after {
   content: " ";
@@ -161,11 +161,32 @@ h2 {
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
-  top: 10px;
-  left: 105%; }
+  top: 70px;
+  right: -60%; }
+
+@keyframes bouncedown {
+  0% {
+    opacity: 0;
+    transform: translateY(0px); }
+  50% {
+    transform: translateY(3px); }
+  100% {
+    transform: translateY(0); } }
+.tooltip .tooltext-bottom-right::after {
+  content: " ";
+  position: absolute;
+  bottom: 100%;
+  /* At the top of the tooltip */
+  left: 10%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent; }
 
 .tooltip:hover .tooltext-bottom-right {
   visibility: visible;
+  animation-name: bouncedown;
+  animation-duration: 1s;
   opacity: 1; }
 
 .tooltip .tooltext-bottom {
@@ -182,8 +203,8 @@ h2 {
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
-  top: 20px;
-  right: -90%; }
+  top: 70px;
+  right: -15%; }
 
 @keyframes bouncedown {
   0% {
@@ -224,11 +245,32 @@ h2 {
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
-  top: 10px;
-  right: 105%; }
+  top: 70px;
+  left: -60%; }
+
+@keyframes bouncedown {
+  0% {
+    opacity: 0;
+    transform: translateY(0px); }
+  50% {
+    transform: translateY(3px); }
+  100% {
+    transform: translateY(0); } }
+.tooltip .tooltext-bottom-left::after {
+  content: " ";
+  position: absolute;
+  bottom: 100%;
+  /* At the top of the tooltip */
+  right: 10%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent; }
 
 .tooltip:hover .tooltext-bottom-left {
   visibility: visible;
+  animation-name: bouncedown;
+  animation-duration: 1s;
   opacity: 1; }
 
 .tooltip .tooltext-bounce {
@@ -245,8 +287,8 @@ h2 {
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
-  bottom: 10px;
-  left: 105%; }
+  bottom: 70px;
+  left: -10%; }
 
 @keyframes bounce {
   0%,
@@ -290,8 +332,8 @@ h2 {
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
-  bottom: 10px;
-  left: 105%; }
+  bottom: 70px;
+  left: 15%; }
 
 @keyframes bounce {
   0%,
@@ -554,7 +596,7 @@ h2 {
   position: absolute;
   z-index: 1;
   bottom: 70px;
-  left: -10%; }
+  left: -30%; }
 
 @keyframes bounceup {
   0% {
@@ -596,7 +638,7 @@ h2 {
   position: absolute;
   z-index: 1;
   bottom: 70px;
-  left: -10%; }
+  left: -25%; }
 
 @keyframes bounceup {
   0% {
@@ -763,9 +805,17 @@ h2 {
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
-  bottom: 10px;
-  left: 105%; }
+  bottom: 70px;
+  left: 0%; }
 
+@keyframes bounceup {
+  0% {
+    opacity: 0;
+    transform: translateY(0px); }
+  50% {
+    transform: translateY(-3px); }
+  100% {
+    transform: translateY(0); } }
 .tooltip .tooltext-shadow::after {
   content: " ";
   position: absolute;
@@ -779,6 +829,8 @@ h2 {
 
 .tooltip:hover .tooltext-shadow {
   visibility: visible;
+  animation-name: bounceup;
+  animation-duration: 1s;
   opacity: 1; }
 
 .tooltip .tooltext-spin {
@@ -795,8 +847,8 @@ h2 {
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
-  bottom: 10px;
-  left: 105%; }
+  bottom: 70px;
+  left: -5%; }
 
 .tooltip .tooltext-spin::after {
   content: " ";
@@ -833,9 +885,28 @@ h2 {
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
-  bottom: 10px;
-  left: 105%; }
+  bottom: 70px;
+  left: 15%; }
 
+.tooltip .tooltext-rounded::after {
+  content: " ";
+  position: absolute;
+  top: 100%;
+  /* At the top of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent; }
+
+@keyframes bounceup {
+  0% {
+    opacity: 0;
+    transform: translateY(0px); }
+  50% {
+    transform: translateY(-3px); }
+  100% {
+    transform: translateY(0); } }
 .tooltip .tooltext-rounded::after {
   content: " ";
   position: absolute;
@@ -849,6 +920,8 @@ h2 {
 
 .tooltip:hover .tooltext-rounded {
   visibility: visible;
+  animation-name: bounceup;
+  animation-duration: 1s;
   opacity: 1; }
 
 .tooltip .tooltext-fade {
@@ -861,13 +934,21 @@ h2 {
   padding: 5px 0;
   box-shadow: 6px 5px 10px rgba(63, 62, 62, 0.596);
   opacity: 0;
-  transition: opacity 4s ease-out;
+  transition: opacity 8s ease-out;
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
-  bottom: 10px;
-  left: 105%; }
+  bottom: 70px;
+  left: -10%; }
 
+@keyframes bounceup {
+  0% {
+    opacity: 0;
+    transform: translateY(0px); }
+  50% {
+    transform: translateY(-3px); }
+  100% {
+    transform: translateY(0); } }
 .tooltip .tooltext-fade::after {
   content: " ";
   position: absolute;
@@ -881,6 +962,8 @@ h2 {
 
 .tooltip:hover .tooltext-fade {
   visibility: visible;
+  animation-name: bounceup;
+  animation-duration: 1s;
   opacity: 1; }
 
 /*# sourceMappingURL=style.css.map */
