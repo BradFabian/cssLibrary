@@ -12,11 +12,37 @@
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
-  bottom: 10px;
-  left: 105%;
+  bottom: 70px;
+  left: 80%;
+}
+@keyframes bounceup {
+  0% {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-3px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.tooltip .tooltext-top-right::after {
+  content: " ";
+  position: absolute;
+  top: 100%; /* At the top of the tooltip */
+  left: 10%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
 }
 
 .tooltip:hover .tooltext-top-right {
   visibility: visible;
+  animation-name: bounceup;
+  animation-duration: 1s;
   opacity: 1;
 }
