@@ -11,7 +11,7 @@ body {
 
 header {
   width: 100%;
-  height: 85vh;
+  height: 90vh;
 }
 .hero-title-box {
   background-color: #ffeaa7;
@@ -22,7 +22,7 @@ header {
   text-align: center;
   position: absolute;
   width: 100%;
-  height: 85vh;
+  height: 90vh;
 }
 
 .hero-title-box {
@@ -106,12 +106,8 @@ $btntextcolor: #fff; // BUTTON TEXT COLOR//
 .tooltip-examples {
   background-color: #81ecec;
   width: 100%;
-  height: 80vh;
+  height: 90vh;
   text-align: center;
-}
-
-.classic-tooltips-box {
-  height: 80vh;
 }
 
 .tooltip-title {
@@ -120,7 +116,10 @@ $btntextcolor: #fff; // BUTTON TEXT COLOR//
   text-shadow: 0.8px 1px #000;
 }
 
-.classic-tooltip-menu {
+.classic-tooltip-menu,
+.color-tooltips-box,
+.size-tooltips-box,
+.effects-tooltips-box {
   display: flex;
   justify-content: center;
 }

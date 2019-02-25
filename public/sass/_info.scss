@@ -12,8 +12,22 @@
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
-  bottom: 10px;
-  left: 105%;
+  bottom: 70px;
+  left: -10%;
+}
+
+@keyframes bounceup {
+  0% {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-3px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .tooltip .tooltext-info::after {
@@ -29,5 +43,7 @@
 
 .tooltip:hover .tooltext-info {
   visibility: visible;
+  animation-name: bounceup;
+  animation-duration: 1s;
   opacity: 1;
 }
