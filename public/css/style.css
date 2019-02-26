@@ -38,47 +38,6 @@ header {
   top: 20px;
   left: 0; }
 
-.btn:link,
-.btn:visited {
-  background-color: #2d3436;
-  font-weight: bold;
-  color: #fff;
-  display: inline-block;
-  text-decoration: none;
-  text-align: center;
-  cursor: pointer;
-  border-radius: 15px;
-  margin: 10px;
-  padding: 10px;
-  border-radius: 100px;
-  transition: all 0.2s;
-  position: relative; }
-
-.btn:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); }
-
-.btn:active {
-  transform: translateY(-1px);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); }
-
-.btn::after {
-  content: "";
-  display: inline-block;
-  background-color: #2d3436;
-  height: 100%;
-  width: 100%;
-  border-radius: 100px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  transition: all 0.4s; }
-
-.btn:hover::after {
-  transform: scaleX(1.4) scaleY(1.6);
-  opacity: 0; }
-
 .tooltip-examples,
 .tooltip-features,
 .tooltip-usage {
@@ -353,6 +312,47 @@ li i {
   visibility: visible;
   opacity: 1;
   animation: bounce 1s; }
+
+.btn:link,
+.btn:visited {
+  background-color: #2d3436;
+  font-weight: bold;
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 100px;
+  transition: all 0.2s;
+  position: relative; }
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); }
+
+.btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); }
+
+.btn::after {
+  content: "";
+  display: inline-block;
+  background-color: #2d3436;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.4s; }
+
+.btn:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0; }
 
 .tooltip .tooltext-crazy {
   visibility: hidden;

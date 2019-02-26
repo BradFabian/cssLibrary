@@ -1,4 +1,4 @@
-.tooltip .tooltext-accept {
+.tooltip .toolbox-accept {
   visibility: hidden;
   width: 120px;
   background-color: green;
@@ -30,7 +30,7 @@
   }
 }
 
-.tooltip .tooltext-accept::after {
+.tooltip .toolbox-accept::after {
   content: " ";
   position: absolute;
   top: 100%; /* At the top of the tooltip */
@@ -41,7 +41,7 @@
   border-color: green transparent transparent transparent;
 }
 
-.tooltip:hover .tooltext-accept {
+.tooltip:hover .toolbox-accept {
   visibility: visible;
   animation-name: bounceup;
   animation-duration: 1s;

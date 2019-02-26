@@ -1,4 +1,4 @@
-.tooltip .tooltext-med {
+.tooltip .toolbox-med {
   visibility: hidden;
   width: 160px;
   background-color: black;
@@ -16,7 +16,7 @@
   right: -30%;
 }
 
-.tooltip .tooltext-med::after {
+.tooltip .toolbox-med::after {
   content: " ";
   position: absolute;
   top: 100%; /* At the top of the tooltip */
@@ -41,7 +41,7 @@
   }
 }
 
-.tooltip:hover .tooltext-med {
+.tooltip:hover .toolbox-med {
   visibility: visible;
   animation-name: bounceup;
   animation-duration: 1s;

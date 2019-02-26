@@ -1,4 +1,4 @@
-.tooltip .tooltext-fade {
+.tooltip .toolbox-fade {
   visibility: hidden;
   width: 120px;
   background-color: black;
@@ -30,7 +30,7 @@
   }
 }
 
-.tooltip .tooltext-fade::after {
+.tooltip .toolbox-fade::after {
   content: " ";
   position: absolute;
   top: 100%; /* At the top of the tooltip */
@@ -41,7 +41,7 @@
   border-color: black transparent transparent transparent;
 }
 
-.tooltip:hover .tooltext-fade {
+.tooltip:hover .toolbox-fade {
   visibility: visible;
   animation-name: bounceup;
   animation-duration: 1s;

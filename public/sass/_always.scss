@@ -1,4 +1,4 @@
-.tooltip .tooltext-always {
+.tooltip .toolbox-always {
   visibility: visible;
   width: 120px;
   background-color: black;
@@ -14,7 +14,7 @@
   left: 10%;
 }
 
-.tooltip .tooltext-always::after {
+.tooltip .toolbox-always::after {
   content: " ";
   position: absolute;
   top: 100%; /* At the top of the tooltip */

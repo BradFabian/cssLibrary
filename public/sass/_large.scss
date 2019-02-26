@@ -1,4 +1,4 @@
-.tooltip .tooltext-large {
+.tooltip .toolbox-large {
   visibility: hidden;
   width: 240px;
   background-color: black;
@@ -17,7 +17,7 @@
   right: -90%;
 }
 
-.tooltip .tooltext-large::after {
+.tooltip .toolbox-large::after {
   content: " ";
   position: absolute;
   top: 100%; /* At the top of the tooltip */
@@ -42,7 +42,7 @@
   }
 }
 
-.tooltip:hover .tooltext-large {
+.tooltip:hover .toolbox-large {
   visibility: visible;
   animation-name: bounceup;
   animation-duration: 1s;

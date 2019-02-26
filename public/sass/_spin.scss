@@ -1,4 +1,4 @@
-.tooltip .tooltext-spin {
+.tooltip .toolbox-spin {
   visibility: hidden;
   width: 120px;
   background-color: black;
@@ -17,7 +17,7 @@
   left: -5%;
 }
 
-.tooltip .tooltext-spin::after {
+.tooltip .toolbox-spin::after {
   content: " ";
   position: absolute;
   top: 100%; /* At the top of the tooltip */
@@ -36,7 +36,7 @@
     transform: rotate(360deg);
   }
 }
-.tooltip:hover .tooltext-spin {
+.tooltip:hover .toolbox-spin {
   visibility: visible;
   opacity: 1;
   animation: spin 1s;

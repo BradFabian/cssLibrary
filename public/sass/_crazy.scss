@@ -1,4 +1,4 @@
-.tooltip .tooltext-crazy {
+.tooltip .toolbox-crazy {
   visibility: hidden;
   width: 120px;
 
@@ -47,7 +47,7 @@
   }
 }
 
-.tooltip .tooltext-crazy::after {
+.tooltip .toolbox-crazy::after {
   content: " ";
   position: absolute;
   top: 100%; /* At the top of the tooltip */
@@ -58,7 +58,7 @@
   border-color: #b3dbd3 transparent transparent transparent;
 }
 
-.tooltip:hover .tooltext-crazy {
+.tooltip:hover .toolbox-crazy {
   visibility: visible;
   opacity: 1;
   animation: bounce 1s infinite, change-background 2s ease-in-out infinite;

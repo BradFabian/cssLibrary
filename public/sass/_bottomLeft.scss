@@ -1,4 +1,4 @@
-.tooltip .tooltext-bottom-left {
+.tooltip .toolbox-bottom-left {
   visibility: hidden;
   width: 120px;
   background-color: black;
@@ -30,7 +30,7 @@
   }
 }
 
-.tooltip .tooltext-bottom-left::after {
+.tooltip .toolbox-bottom-left::after {
   content: " ";
   position: absolute;
   bottom: 100%; /* At the top of the tooltip */
@@ -41,7 +41,7 @@
   border-color: transparent transparent black transparent;
 }
 
-.tooltip:hover .tooltext-bottom-left {
+.tooltip:hover .toolbox-bottom-left {
   visibility: visible;
   animation-name: bouncedown;
   animation-duration: 1s;

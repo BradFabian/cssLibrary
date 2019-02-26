@@ -1,4 +1,4 @@
-.tooltip .tooltext-error {
+.tooltip .toolbox-error {
   visibility: hidden;
   width: 120px;
   background-color: red;
@@ -30,7 +30,7 @@
   }
 }
 
-.tooltip .tooltext-error::after {
+.tooltip .toolbox-error::after {
   content: " ";
   position: absolute;
   top: 100%; /* At the top of the tooltip */
@@ -41,7 +41,7 @@
   border-color: red transparent transparent transparent;
 }
 
-.tooltip:hover .tooltext-error {
+.tooltip:hover .toolbox-error {
   visibility: visible;
   animation-name: bounceup;
   animation-duration: 1s;

@@ -1,4 +1,4 @@
-.tooltip .tooltext-info {
+.tooltip .toolbox-info {
   visibility: hidden;
   width: 120px;
   background-color: blue;
@@ -30,7 +30,7 @@
   }
 }
 
-.tooltip .tooltext-info::after {
+.tooltip .toolbox-info::after {
   content: " ";
   position: absolute;
   top: 100%; /* At the top of the tooltip */
@@ -41,7 +41,7 @@
   border-color: blue transparent transparent transparent;
 }
 
-.tooltip:hover .tooltext-info {
+.tooltip:hover .toolbox-info {
   visibility: visible;
   animation-name: bounceup;
   animation-duration: 1s;

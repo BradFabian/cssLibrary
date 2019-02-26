@@ -1,4 +1,4 @@
-.tooltip .tooltext-right {
+.tooltip .toolbox-right {
   visibility: hidden;
   width: 120px;
   background-color: black;
@@ -30,7 +30,7 @@
   }
 }
 
-.tooltip .tooltext-right::after {
+.tooltip .toolbox-right::after {
   content: " ";
   position: absolute;
   right: 100%; /* At the top of the tooltip */
@@ -41,7 +41,7 @@
   border-color: transparent black transparent transparent;
 }
 
-.tooltip:hover .tooltext-right {
+.tooltip:hover .toolbox-right {
   visibility: visible;
   animation-name: bounceRight;
   animation-duration: 1s;

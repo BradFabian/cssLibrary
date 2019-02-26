@@ -1,3 +1,7 @@
+$btnbg-color: #2d3436; //COLOR OF BUTTON//
+$font-weight: bold; // NORMAL, BOLD, BOLDER, LIGHTER//
+$btntextcolor: #fff; // BUTTON TEXT COLOR//
+
 * {
   padding: 0;
   margin: 0;
@@ -46,59 +50,6 @@ header {
     top: 20px;
     left: 0;
   }
-}
-
-// Button Styling //
-
-$btnbg-color: #2d3436; //COLOR OF BUTTON//
-$font-weight: bold; // NORMAL, BOLD, BOLDER, LIGHTER//
-$btntextcolor: #fff; // BUTTON TEXT COLOR//
-//===================================//
-.btn:link,
-.btn:visited {
-  background-color: $btnbg-color;
-  font-weight: $font-weight;
-  color: $btntextcolor;
-  display: inline-block;
-  text-decoration: none;
-  text-align: center;
-  cursor: pointer;
-
-  border-radius: 15px;
-  margin: 10px;
-  padding: 10px;
-
-  border-radius: 100px;
-  transition: all 0.2s;
-  position: relative;
-}
-
-.btn:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
-.btn:active {
-  transform: translateY(-1px);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-}
-
-.btn::after {
-  content: "";
-  display: inline-block;
-  background-color: $btnbg-color;
-  height: 100%;
-  width: 100%;
-  border-radius: 100px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  transition: all 0.4s;
-}
-
-.btn:hover::after {
-  transform: scaleX(1.4) scaleY(1.6);
-  opacity: 0;
 }
 
 // Examples Styling //
@@ -200,6 +151,7 @@ li {
 @import "bottom";
 @import "bottomLeft";
 @import "bounce";
+@import "button";
 @import "crazy";
 @import "left";
 @import "right";

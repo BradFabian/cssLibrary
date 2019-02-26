@@ -1,4 +1,4 @@
-.tooltip .tooltext-left {
+.tooltip .toolbox-left {
   visibility: hidden;
   width: 120px;
   background-color: black;
@@ -30,7 +30,7 @@
   }
 }
 
-.tooltip .tooltext-left::after {
+.tooltip .toolbox-left::after {
   content: " ";
   position: absolute;
   left: 104%; /* At the top of the tooltip */
@@ -41,7 +41,7 @@
   border-color: transparent transparent transparent black;
 }
 
-.tooltip:hover .tooltext-left {
+.tooltip:hover .toolbox-left {
   visibility: visible;
   animation-name: bounceleft;
   animation-duration: 1s;
