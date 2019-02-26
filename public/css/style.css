@@ -94,6 +94,21 @@ h2 {
   padding-top: 20px;
   margin-bottom: 20px; }
 
+p {
+  color: #fff;
+  font-size: 130%;
+  text-shadow: 0.8px 1px #000;
+  padding: 20px;
+  display: block; }
+
+pre {
+  color: #000;
+  font-weight: bold;
+  font-size: 130%;
+  text-shadow: 0.8px 0.8px #8a8888;
+  padding: 20px;
+  display: block; }
+
 .classic-tooltip-menu,
 .color-tooltips-box,
 .size-tooltips-box,
