@@ -63,6 +63,12 @@ header {
   text-align: center;
 }
 
+.tooltip-examples {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+}
+
 h2 {
   color: #fff;
   font-size: 180%;
@@ -79,7 +85,7 @@ p {
   display: block;
 }
 
-pre {
+.dark {
   color: #000;
   font-weight: bold;
   font-size: 130%;
@@ -92,8 +98,6 @@ pre {
 .color-tooltips-box,
 .size-tooltips-box,
 .effects-tooltips-box {
-  display: flex;
-  flex-wrap: wrap-reverse;
   justify-content: center;
 }
 
@@ -146,6 +150,64 @@ li {
   position: relative;
   display: inline-block;
 }
+
+.hireInfo-section {
+  background-color: #34495e;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.hireInfo-title {
+  text-align: center;
+}
+.hireInfo {
+  ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+.hireInfo {
+  ul {
+    li {
+      display: inline-block;
+      text-align: center;
+      margin: 10px;
+      padding: 0;
+    }
+  }
+}
+
+.icon-sml {
+  display: inline-block;
+  color: #fff;
+  margin: 10px;
+  font-size: 200%;
+  text-align: center;
+}
+
+.fa-twitter-square,
+.fa-instagram,
+.fa-linkedin,
+.fa-github-square {
+  transition: color 0.2s;
+}
+
+.fa-linkedin:hover {
+  color: #007bb5;
+}
+.fa-twitter-square:hover {
+  color: #1da1f2;
+}
+.fa-github-square:hover {
+  color: #333;
+}
+.fa-instagram:hover {
+  color: #c32aa3;
+}
+
 @import "always";
 @import "bottomRight";
 @import "bottom";
