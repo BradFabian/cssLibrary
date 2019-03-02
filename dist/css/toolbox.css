@@ -1,15 +1,4 @@
-* {
-  padding: 0;
-  margin: 0; }
 
-html,
-body {
-  font-family: sans-serif, "lato";
-  width: 100%; }
-
-header {
-  width: 100%;
-  height: 95vh; }
 
 .hero-title-box {
   background-color: #ffeaa7;
