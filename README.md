@@ -89,4 +89,4 @@ Set the div position to "relative" then add a toolbox class to your span
 
 If you enjoyed my CSS Library please email me at brad@bradfabian.com . I'm available for any project & can work with the following languages:
 HTML CSS JavaScript jQuery React Node Express MongoDB Mysql PHP
-Check out my portfolio at [www.bradfabian.com](www.bradfabian.com "Portfolio")
+Check out my portfolio at www.bradfabian.com 
