@@ -5,9 +5,8 @@ A css library that makes tool tips awesome.
 ## Landing Page
 
 ## Demo Of Tooltips
-![](
-        https://github.com/BradFabian/toolBox.css/source/images/TooltipDemo.gif
-      
+![Demo](
+      https://github.com/BradFabian/toolBox.css/blob/master/source/images/TooltipDemo.gif
       )
 
 ## How To Use
