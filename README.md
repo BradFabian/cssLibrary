@@ -52,7 +52,7 @@ Nobody wants to do that!! I created a solution to this problem. A Tooltip Librar
 ## How To Use
 In your HTML include the CDN LINK:
 
-```<link rel="stylesheet" href="https://cloudfront.toolbox.css" integrity="s84/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T">```
+```<link rel="stylesheet" href="https://s3.amazonaws.com/toolboxcss/toolbox.css">```
 
 Set the div position to "relative" then add a toolbox class to your span
 
