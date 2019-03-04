@@ -1,3 +1,4 @@
+$box-backgroundcolor: #6c5ce7; //Button for Tooltip
 $btnbg-color: #2d3436; //COLOR OF BUTTON//
 $font-weight: bold; // NORMAL, BOLD, BOLDER, LIGHTER//
 $btntextcolor: #fff; // BUTTON TEXT COLOR//
@@ -129,7 +130,7 @@ li {
 }
 
 .box {
-  background-color: #6c5ce7;
+  background-color: $box-backgroundcolor;
   padding: 20px;
   margin: 20px;
   color: #fff;
