@@ -554,8 +554,9 @@ li i {
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
-  bottom: 70px;
-  left: -35%; }
+  bottom: 120%;
+  left: 50%;
+  margin-left: -60px; }
 
 @keyframes bounceup {
   0% {
@@ -680,8 +681,9 @@ li i {
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
-  bottom: 70px;
-  left: -10%; }
+  bottom: 120%;
+  left: 50%;
+  margin-left: -60px; }
 
 @keyframes bounceup {
   0% {
@@ -722,8 +724,9 @@ li i {
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
-  bottom: 70px;
-  left: -10%; }
+  bottom: 120%;
+  left: 50%;
+  margin-left: -60px; }
 
 @keyframes bounceup {
   0% {
@@ -764,8 +767,9 @@ li i {
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
-  bottom: 70px;
-  left: -30%; }
+  bottom: 120%;
+  left: 50%;
+  margin-left: -60px; }
 
 @keyframes bounceup {
   0% {
@@ -806,8 +810,9 @@ li i {
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
-  bottom: 70px;
-  left: -25%; }
+  bottom: 120%;
+  left: 50%;
+  margin-left: -60px; }
 
 @keyframes bounceup {
   0% {
@@ -848,8 +853,9 @@ li i {
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
-  bottom: 70px;
-  left: 0; }
+  bottom: 120%;
+  left: 50%;
+  margin-left: -40px; }
 
 @keyframes bounceup {
   0% {
@@ -932,8 +938,9 @@ li i {
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
-  bottom: 70px;
-  right: -90%; }
+  bottom: 120%;
+  right: 50%;
+  margin-right: -120px; }
 
 .tooltip .toolbox-large::after {
   content: " ";

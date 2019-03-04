@@ -1,3 +1,5 @@
+//--Accept Tooltip CSS Starts HERE--//
+
 .tooltip .toolbox-accept {
   visibility: hidden;
   width: 120px;
@@ -12,8 +14,9 @@
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
-  bottom: 70px;
-  left: -10%;
+  bottom: 120%;
+  left: 50%;
+  margin-left: -60px;
 }
 
 @keyframes bounceup {

@@ -1,3 +1,4 @@
+//--Large Tooltip CSS Starts HERE--//
 .tooltip .toolbox-large {
   visibility: hidden;
   width: 240px;
@@ -13,8 +14,9 @@
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
-  bottom: 70px;
-  right: -90%;
+  bottom: 120%;
+  right: 50%;
+  margin-right: -120px;
 }
 
 .tooltip .toolbox-large::after {

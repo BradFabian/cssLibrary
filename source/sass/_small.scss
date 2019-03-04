@@ -1,3 +1,5 @@
+//--Small Tooltip CSS Starts HERE--//
+
 .tooltip .toolbox-small {
   visibility: hidden;
   width: 80px;
@@ -12,8 +14,9 @@
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
-  bottom: 70px;
-  left: 0;
+  bottom: 120%;
+  left: 50%;
+  margin-left: -40px;
 }
 
 @keyframes bounceup {
