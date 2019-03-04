@@ -13,8 +13,9 @@
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
-  top: 70px;
-  left: -60%;
+  top: 120%;
+  right: 70%;
+  margin-left: 100px;
 }
 
 @keyframes bouncedown {
