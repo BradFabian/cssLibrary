@@ -176,8 +176,9 @@ li i {
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
-  bottom: 70px;
-  left: 10%; }
+  bottom: 120%;
+  left: 50%;
+  margin-left: -60px; }
 
 .tooltip .toolbox-always::after {
   content: " ";
