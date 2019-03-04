@@ -13,8 +13,9 @@
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
-  bottom: 70px;
-  right: -30%;
+  bottom: 120%;
+  left: 50%;
+  margin-left: -60px;
 }
 
 .tooltip .toolbox-med::after {
