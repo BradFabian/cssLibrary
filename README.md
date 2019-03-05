@@ -52,11 +52,11 @@ Nobody wants to do that!! I created a solution to this problem. A Tooltip Librar
 ## How To Use
 In your HTML include the CDN LINK:
 
-```<link rel="stylesheet" href="https://s3.amazonaws.com/toolboxcss/toolbox.css">```
+```<link rel="stylesheet" href="https://s3.amazonaws.com/toolboxcsscdn/toolbox.css">```
 
-Set the div position to "relative" then add a toolbox class to your span
+Set the div class to tooltip then add a toolbox class to your span
 
-```<div class="tooltip-container"> Accept <span class="toolbox-accept"> Accepted </span> </div>```
+```<div class="tooltip"> Accept <span class="toolbox-accept"> Accepted </span> </div>```
 
 
 ### ToolBox-Classes
