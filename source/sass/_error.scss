@@ -35,7 +35,7 @@
 .tooltip .toolbox-error::after {
   content: " ";
   position: absolute;
-  top: 100%; /* At the top of the tooltip */
+  top: 100%; /* Arrow at the bottom of the tooltip */
   left: 50%;
   margin-left: -5px;
   border-width: 5px;
