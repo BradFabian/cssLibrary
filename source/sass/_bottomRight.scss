@@ -13,8 +13,8 @@
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
-  top: 120%;
-  left: 70%;
+  top: 120%; // Move Horizontally //
+  left: 70%; // Move Vertically //
   margin-right: 100px;
 }
 
@@ -35,7 +35,7 @@
 .tooltip .toolbox-bottom-right::after {
   content: " ";
   position: absolute;
-  bottom: 100%; /* At the top of the tooltip */
+  bottom: 100%; /* Arrow at the top of the tooltip */
   left: 10%;
   margin-left: -5px;
   border-width: 5px;

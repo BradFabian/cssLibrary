@@ -13,8 +13,8 @@
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
-  bottom: 120%;
-  left: 50%;
+  bottom: 120%; // Move Horizontally //
+  left: 50%; // Move Vertically //
   margin-left: -80px;
 }
 

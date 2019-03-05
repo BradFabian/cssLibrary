@@ -13,9 +13,9 @@
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
-  bottom: 120%;
+  bottom: 120%; // Move Horizontally //
 
-  right: 80%;
+  right: 80%; // Move Vertically //
 }
 @keyframes bounceup {
   0% {

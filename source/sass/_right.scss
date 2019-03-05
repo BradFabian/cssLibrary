@@ -13,8 +13,8 @@
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
-  top: 25%;
-  left: 115%;
+  top: 25%; // Move Horizontally //
+  left: 115%; // Move Vertically //
 }
 
 @keyframes bounceRight {

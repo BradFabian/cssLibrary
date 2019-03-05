@@ -184,7 +184,7 @@ li i {
   content: " ";
   position: absolute;
   top: 100%;
-  /* At the top of the tooltip */
+  /* Arrow at the bottom of the tooltip */
   left: 50%;
   margin-left: -5px;
   border-width: 5px;
@@ -221,7 +221,7 @@ li i {
   content: " ";
   position: absolute;
   bottom: 100%;
-  /* At the top of the tooltip */
+  /* Arrow at the top of the tooltip */
   left: 10%;
   margin-left: -5px;
   border-width: 5px;
@@ -264,7 +264,7 @@ li i {
   content: " ";
   position: absolute;
   bottom: 100%;
-  /* At the top of the tooltip */
+  /* Arrow at the top of the tooltip */
   left: 50%;
   margin-left: -5px;
   border-width: 5px;
@@ -307,7 +307,7 @@ li i {
   content: " ";
   position: absolute;
   bottom: 100%;
-  /* At the top of the tooltip */
+  /* Arrow at the top of the tooltip */
   right: 10%;
   margin-left: -5px;
   border-width: 5px;
@@ -703,7 +703,7 @@ li i {
   content: " ";
   position: absolute;
   top: 100%;
-  /* At the top of the tooltip */
+  /* Arrow at the bottom of the tooltip */
   left: 50%;
   margin-left: -5px;
   border-width: 5px;

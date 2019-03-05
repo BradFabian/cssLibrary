@@ -14,8 +14,8 @@
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
-  top: 120%;
-  right: 50%;
+  top: 120%; // Move Horizontally //
+  right: 50%; // Move Vertically //
   margin-right: -60px;
 }
 
@@ -36,7 +36,7 @@
 .tooltip .toolbox-bottom::after {
   content: " ";
   position: absolute;
-  bottom: 100%; /* At the top of the tooltip */
+  bottom: 100%; /* Arrow at the top of the tooltip */
   left: 50%;
   margin-left: -5px;
   border-width: 5px;

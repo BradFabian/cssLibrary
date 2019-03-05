@@ -11,15 +11,15 @@
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
-  bottom: 120%;
-  left: 50%;
+  bottom: 120%; // Move Horizontally//
+  left: 50%; // Move Vertically //
   margin-left: -60px;
 }
 
 .tooltip .toolbox-always::after {
   content: " ";
   position: absolute;
-  top: 100%; /* At the top of the tooltip */
+  top: 100%; /* Arrow at the bottom of the tooltip */
   left: 50%;
   margin-left: -5px;
   border-width: 5px;
