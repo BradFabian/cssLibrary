@@ -6,7 +6,8 @@ pops up is clearly labeled. Also the backround color and
 text color for the Tooltips are labled. Please enjoy! */
 * {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  box-sizing: border-box; }
 
 html,
 body {

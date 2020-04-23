@@ -9,17 +9,18 @@ $box-backgroundcolor: #6c5ce7; //Button for Tooltip
 $btnbg-color: #2d3436; //COLOR OF BUTTON//
 $font-weight: bold; // NORMAL, BOLD, BOLDER, LIGHTER//
 $btntextcolor: #fff; // BUTTON TEXT COLOR//
-
-* {
-  padding: 0;
-  margin: 0;
-}
-
+*,
 html,
 body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
   font-family: sans-serif, "lato";
-  width: 100%;
+  width: 100vw;
+  overflow: auto;
+  position: relative;
 }
+
 // Header Styling //
 
 header {
@@ -66,7 +67,6 @@ header {
 .tooltip-examples,
 .tooltip-features,
 .tooltip-usage {
-  background-color: #81ecec;
   width: 100%;
   height: 100%;
   text-align: center;
@@ -147,6 +147,10 @@ li {
   font-weight: $font-weight;
   box-shadow: 5px 5px 10px #4d4f50;
   border-radius: 5px;
+}
+
+.tooltip-examples {
+  background-color: #81ecec;
 }
 
 .tooltip-features {
