@@ -55,7 +55,8 @@ header {
 .tooltip-examples {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap-reverse; }
+  flex-wrap: wrap-reverse;
+  justify-content: center; }
 
 h2 {
   color: #fff;
