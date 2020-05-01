@@ -9,7 +9,7 @@ $box-backgroundcolor: #6c5ce7; //Button for Tooltip
 $btnbg-color: #2d3436; //COLOR OF BUTTON//
 $font-weight: bold; // NORMAL, BOLD, BOLDER, LIGHTER//
 $btntextcolor: #fff; // BUTTON TEXT COLOR//
-*,
+
 html,
 body {
   padding: 0;
@@ -84,7 +84,13 @@ h2 {
   font-size: 180%;
   text-shadow: 0.8px 1px #000;
   padding-top: 20px;
-  margin-bottom: 20px;
+}
+
+.zero-chrome {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  margin-top: 10px;
 }
 
 p {
@@ -103,6 +109,8 @@ p {
   padding: 20px;
   word-break: break-all;
   display: block;
+  margin: 5px;
+  margin-bottom: 0;
 }
 
 .classic-tooltip-menu,
